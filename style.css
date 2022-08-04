@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.p-x{
+    color: green;
+}
+
+.p-o{
+    color: red;
+}
+
+.p-draw{
+    color: blue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell p {
+    font-size: 50pt;
+}
+
+.header {
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
+
+.a1,
+.a2,
+.a3,
+.b1,
+.b2,
+.b3 {
+    border-bottom: 3px solid;
+}
+
+.a1,
+.a2,
+.b1,
+.b2,
+.c1,
+.c2 {
+    border-right: 3px solid;
+}
+
+.win {
+    font-weight: bold;
+    font-size: 34pt;
+    border-bottom: 3px solid;
+    margin-bottom: 20px;
+}
+
+.reset {
+    margin-top: 20px;
+    font-size: 30pt;
+    padding: 10px;
+}
+
+.count{
+    display: flex;
+    font-size: 40pt;
+    font-weight: bold;
+    width: 300px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    border-bottom: 3px solid;
+}
+
+.hr{
+    position: absolute;
+    width: 300px;
+    border: 3px solid;
+    display: none;
+}
+
+.cells{
+    position: relative;
+}
+
+.rotate90{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.rotate45{
+    width: 400px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.rotate135{
+    width: 400px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+}
